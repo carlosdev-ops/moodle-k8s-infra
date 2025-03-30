@@ -1,0 +1,52 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs
+*.log
+*.out
+
+# Fichiers de sauvegarde d'éditeurs
+*~
+*.swp
+*.bak
+
+# Fichiers temporaires
+tmp/
+temp/
+.cache/
+
+# Fichiers Python (si tu automatises en Python)
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Répertoires virtuels
+venv/
+.env
+
+# Secrets
+*.pem
+*.key
+*.crt
+.env.local
+.env.*
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/community-plugins.json
+
+# Kube
+*.kubeconfig
+.kube/
+
+# Exclusion des sauvegardes
+backup/
+restore/
+
+# Dossiers générés automatiquement
+node_modules/
+dist/
+build/
