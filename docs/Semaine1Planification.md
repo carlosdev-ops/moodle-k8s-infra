@@ -15,14 +15,21 @@
 ## 🧱 Architecture cible (à dessiner ou détailler)
 
 - 🖥️ Proxmox avec :
-  - 1 master K8s
-  - 2 workers K8s
+	  - 1 master K8s
+	  - 2 workers K8s
 - 📦 Volumes persistants via hostPath ou local-path-provisioner
 - 🌐 Ingress Controller (traefik ou nginx)
 - 🌳 3 namespaces : `dev`, `stage`, `prod`
 - 🛡️ Fichiers de configuration versionnés dans GitHub
 
+
+
 ---
+
+
+# 🧠 Planification de la Semaine 1
+
+Pour le résumé final, voir : [[Semaine1Recapitulatif]]
 
 ## 🗂️ Structure du dépôt GitHub
 
@@ -35,5 +42,7 @@ moodle-k8s-infra/
 │   └── prod/       # Déploiement Moodle PROD
 ├── scripts/        # Automatisation Bash / Python
 ├── tests/          # Tests de panne / résilience
+├── docs/           # Ajout des notes Obsidian dans le dossier docs
 ├── README.md       # Présentation du projet
 └── .gitignore      # Fichiers à ignorer
+

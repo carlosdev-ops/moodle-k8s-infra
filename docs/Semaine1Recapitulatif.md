@@ -7,3 +7,9 @@
 - [x] Ajout du fichier .gitignore
 - [x] Première note de planification dans Obsidian
 - [x] Premier commit et push vers GitHub
+
+
+# ✅ Récapitulatif – Semaine 1
+
+Voir aussi : [[Semaine1Planification]]
+
